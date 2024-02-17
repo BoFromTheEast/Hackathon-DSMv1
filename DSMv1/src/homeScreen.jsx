@@ -8,9 +8,9 @@ function homeScreen() {
 
 
     <h1> Welcome to Homescreen</h1>
-      <a href="you.com" /*target="_blank1"*/>
-        <button>Click me!</button>
-      </a>
+     
+       
+
     </>
   );
 }
