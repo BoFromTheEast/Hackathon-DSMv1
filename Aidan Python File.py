@@ -1,2 +1,0 @@
-#Python File
-print('yes')
