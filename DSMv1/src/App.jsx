@@ -17,7 +17,10 @@ function App() {
           <button>Click me!</button>
         </a>
 
+        <h3>Put your Username</h3>
         <input type="text" />
+        <h3>Put your Password</h3>
+        <input type="password" />
       </div>
     </>
   );
