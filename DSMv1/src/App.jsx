@@ -24,9 +24,6 @@ function App() {
                 </h1>
                 <h1>Login</h1>
                 {/* Replace <a> with <Link> for navigation */}
-                <button>
-                  <Link to="/home">Click me!</Link>
-                </button>
                 <br />
                 <br />
                 <h3>Put your Username</h3>

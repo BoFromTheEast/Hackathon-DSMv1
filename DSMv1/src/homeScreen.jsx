@@ -5,7 +5,10 @@ import viteLogo from "/vite.svg";
 function homeScreen() {
   return (
     <>
-      <a href="Youtube.com" /*target="_blank1"*/>
+
+
+    <h1> Welcome to Homescreen</h1>
+      <a href="you.com" /*target="_blank1"*/>
         <button>Click me!</button>
       </a>
     </>
