@@ -5,6 +5,9 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  // Declare a new state variable called 'username' with an initial value of an empty string.
+  // 'setUsername' is the function we will use to update this state.
+  const [username, setUsername] = useState("");
 
   return (
     <>
@@ -13,10 +16,9 @@ function App() {
         <a href="./first.html" /*target="_blank1"*/>
           <button>Click me!</button>
         </a>
+
+        <input type="text" />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
