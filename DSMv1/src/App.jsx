@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import HomeScreen from "./homeScreen.jsx";
+import ChatPage from "./Chat.tsx";
 
 // Import the necessary parts of React Router
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -45,12 +46,16 @@ function App() {
                 <button>
                   <Link to="/home">Login</Link>
                 </button>
+                <button>
+                  <Link to="/chatPage">Head to Chat Room</Link>
+                </button>
                 
               </div>
             </>
           }
         />
         <Route path="/home" element={<HomeScreen />} />
+        <Route path="/chatPage" element={<ChatPage />} />
       </Routes>
     </Router>
   );

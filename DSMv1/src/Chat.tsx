@@ -1,7 +1,8 @@
 //PascalCasing
 import React from "react";
-function MyButton() {
+function ChatPage() {
     return (
-        <button>Im am a button</button>
+        <h1>Heading</h1>
     )
 }
+export default ChatPage
