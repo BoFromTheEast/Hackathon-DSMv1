@@ -13,10 +13,6 @@ function App() {
         <a href="./first.html" /*target="_blank1"*/>
           <button>Click me!</button>
         </a>
-
-        <button >
-          
-        </button>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
