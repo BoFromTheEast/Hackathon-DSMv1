@@ -24,7 +24,9 @@ function App() {
                 </h1>
                 <h1>Login</h1>
                 {/* Replace <a> with <Link> for navigation */}
-                <Link to="/home">Click me!</Link>
+                <button>
+                  <Link to="/home">Click me!</Link>
+                </button>
                 <br />
                 <br />
                 <h3>Put your Username</h3>
@@ -42,7 +44,10 @@ function App() {
                 />
                 <br />
                 {/* Use Link for navigation or a form submission for login */}
-                <Link to="/home">Login</Link>
+                <br />
+                <button>
+                  <Link to="/home">Login</Link>
+                </button>
               </div>
             </>
           }
